@@ -22,22 +22,8 @@ class UserInput extends Component {
   render() {
     return(
       <form onSubmit={this.handleOnSubmit}>
-        <p>
-          <input
-            type="text"
-            id="username"
-            onChange={this.handleInputChange}
-            placeholder="username"
-          />
-        </p>
-        <p>
-          <input
-            type="text"
-            id="hometown"
-            onChange={this.handleInputChange}
-            placeholder="hometown"
-          />
-        </p>
+        <p><input type="text" id="username" onChange={this.handleInputChange} placeholder="username" /></p>
+        <p><input type="text" id="hometown" onChange={this.handleInputChange} placeholder="hometown" /></p>
         <input type="submit" />
       </form>
     )
